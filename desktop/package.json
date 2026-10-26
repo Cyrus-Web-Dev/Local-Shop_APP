@@ -1,0 +1,3 @@
+{"name":"tokolokal-desktop","version":"1.0.0","main":"main.cjs","description":"TokoLokal untuk Windows","author":"TokoLokal",
+"scripts":{"start":"electron .","dist":"electron-builder --win"},
+"build":{"appId":"id.tokolokal.app","productName":"TokoLokal","files":["main.cjs","icon.png","web/**"],"win":{"target":["nsis","portable"],"icon":"icon.ico"},"nsis":{"oneClick":false,"allowToChangeInstallationDirectory":true}}}
